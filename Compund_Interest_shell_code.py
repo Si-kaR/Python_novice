@@ -1,0 +1,6 @@
+P = eval(input('Enter your Principal: '))
+r = eval(input('Enter rate: '))
+n = eval(input('Enter the number of times for compounding: '))
+t = eval(input('Enter the number of years: '))
+computeAmount = P * (1 + r/n)**(n*t)
+print(computeAmount)
